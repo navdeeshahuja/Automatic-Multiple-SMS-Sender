@@ -14,8 +14,6 @@
 
 	$message=fread($handler, filesize($message_filename));
 
-	die($message);
-
 	$authKey = "Your Auth Key";
 
 	$mobileNumber = '9999999999,9999999999';
